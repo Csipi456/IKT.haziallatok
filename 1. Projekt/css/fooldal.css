@@ -31,6 +31,10 @@ p{
     text-align: justify;
     text-indent: 0.5cm;
 }
+ul{
+    list-style-type:upper-roman;
+    text-align: justify;
+}
 img{
     display: block;
     margin: auto 20px;
