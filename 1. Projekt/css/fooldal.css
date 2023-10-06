@@ -89,6 +89,8 @@ div{
 section{
     display: block;
     margin: auto;
+    clear: both;
+    margin-bottom: 35px;
 }
 .keplink{
     float: left;
