@@ -110,7 +110,7 @@ a:visited{
     color:maroon;
 }
 a:hover{
-    color: maroon;
+    color: yellow;
 }
 a:active{
     color: green;
@@ -120,6 +120,15 @@ a:active{
     float: right;
     margin-right: 110px;
 }
-.maskep{
+.keszkep{
+    margin-left:40px;
+    
+}
+a{
+ 
+}
+button{
+    margin: auto;
+    max-width: 250px;
     
 }

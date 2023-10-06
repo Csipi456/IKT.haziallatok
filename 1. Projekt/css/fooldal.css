@@ -128,8 +128,32 @@ a:active{
 #blink{
     margin-left: 20px;
     width: 80%;
-    height: 150px;
+    height: 190px;
     border-radius: 60%;
-    float: right;
+    float: left;
     
+}
+#ballink{
+    float: left;
+}
+#jpbblink{
+    float: right;
+}
+#similink{
+    float: left;
+    margin: 10px;
+    width: 8%0;
+    border-radius: 50%;
+    height: 190px;
+}
+button{
+    margin: auto;
+}
+.alsolink:link{
+    text-decoration: none;
+    padding: 5px;
+    color: maroon;
+}
+.alsolink:visited{
+    color: maroon;
 }
