@@ -41,13 +41,12 @@ img{
 }
 .balkep{
     float: left;
-    max-width: 150px;
+    max-width: 200px;
     margin-bottom: 15px;
 }
 .jobbkep{
     float: right;
-    width: 150px;
-    height: 250px;
+    width: 200px;
     
 }
 .kozep{
