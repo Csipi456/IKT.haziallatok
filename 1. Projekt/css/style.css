@@ -9,6 +9,7 @@ header{
     height: 100px;
     background-color: rgb(105, 53, 43);
     color: white;
+    size: cover;
 }
 
 main{
@@ -41,7 +42,7 @@ img{
 }
 .balkep{
     float: left;
-    max-width: 20%;
+    max-width: 60%;
     margin-bottom: 15px;
 }
 .jobbkep{
@@ -103,10 +104,10 @@ section{
 a:link{
     text-decoration: none;
     padding: 5px;
-    color: maroon;
+    color: burlywood;
 }
 a:visited{
-    color:maroon;
+    color:burlywood;
 }
 a:hover{
     color: yellow;
@@ -124,7 +125,11 @@ a:active{
     
 }
 button{
-    margin: auto;
+    margin: 20px;
     max-width: 250px;
     
 }
+#fodiv{
+    min-width: 768px;
+}
+

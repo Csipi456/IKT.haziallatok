@@ -153,6 +153,6 @@ button{
     padding: 5px;
     color: maroon;
 }
-.alsolink:visited{
-    color: maroon;
+.alsolink:hover{
+    color: yellow;
 }
