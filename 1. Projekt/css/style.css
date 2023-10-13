@@ -15,7 +15,7 @@ header{
 main{
     display: block;
     margin: auto;
-    max-width: 60%;
+    min-width: 60%;
     background-color: rgb(255, 255, 255, 0.8);
     padding: 30px;
     
@@ -41,19 +41,17 @@ img{
     margin-top: 70px;
 }
 .balkep{
+    display: block;
     float: left;
-    max-width: 60%;
     margin-bottom: 15px;
 }
 .jobbkep{
+    display: block;
     float: right;
-    width: 20%;
-    
 }
 .kozep{
     display: block;
     margin: auto;
-    max-width: 50%;
 }
 footer{
     display: block;
@@ -85,7 +83,8 @@ div{
 }
 section{
     display: block;
-    margin: auto;
+    margin: auto 10px;
+    clear: both;
 }
 .keplink{
     display: block;

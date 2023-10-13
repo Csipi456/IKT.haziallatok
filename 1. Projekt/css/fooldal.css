@@ -12,8 +12,7 @@ header{
 
 main{
     display: block;
-    margin: auto;
-    max-width: 60%;
+    margin: auto;    
     background-color: rgb(255, 255, 255, 0.8);
     padding: 15px;
     
@@ -93,8 +92,9 @@ section{
 }
 .keplink{
     float: left;
-    margin: 10px;
-    width: 80%;
+    margin: auto 10px;
+    width: 8em;
+    height:8em;
     border-radius: 50%;
 }
 #ikepek{
@@ -125,9 +125,9 @@ a:active{
     margin-right: 110px;
 }
 #blink{
-    margin-left: 20px;
-    width: 80%;
-    height: 190px;
+    margin: auto 20px;
+    width: 8em;
+    height:8em;
     border-radius: 60%;
     float: left;
     
@@ -140,10 +140,10 @@ a:active{
 }
 #similink{
     float: left;
-    margin: 10px;
-    width: 8%0;
+    width: 8em;
+    height:8em;
+    margin: auto;
     border-radius: 50%;
-    height: 190px;
 }
 button{
     margin: auto;
