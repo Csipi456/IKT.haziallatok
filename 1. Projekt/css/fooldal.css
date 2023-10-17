@@ -4,7 +4,7 @@ body{
 header{
     display: block;
     margin: auto;
-    height: 100px;
+    height: 130px;
     background-color: rgb(105, 53, 43);
     color: white;
 }
@@ -64,6 +64,7 @@ footer{
     padding: 30px;
 }
 table{
+    display: block;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -90,10 +91,10 @@ section{
     margin-bottom: 35px;
 }
 .keplink{
-    float: left;
+    
     margin: auto 10px;
     width: 8em;
-    height:8em;
+    height: 8em;
     border-radius: 50%;
 }
 #ikepek{
