@@ -7,11 +7,13 @@ header{
     height: 130px;
     background-color: rgb(105, 53, 43);
     color: white;
+    
+    overflow: hidden;
 }
 
 main{
-    display: block;
-    margin: auto;    
+    margin-top: 130px;
+    display: block; 
     background-color: rgb(255, 255, 255, 0.8);
     padding: 15px;
     
@@ -64,9 +66,8 @@ footer{
     padding: 30px;
 }
 table{
-    display: block;
-    width: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 th{
@@ -92,10 +93,11 @@ section{
 }
 .keplink{
     
-    margin: auto 10px;
+    margin-inline: auto ;
     width: 8em;
     height: 8em;
     border-radius: 50%;
+
 }
 #ikepek{
     width: 400px;
@@ -124,14 +126,7 @@ a:active{
     float: right;
     margin-right: 110px;
 }
-#blink{
-    margin: auto 20px;
-    width: 8em;
-    height:8em;
-    border-radius: 60%;
-    float: left;
-    
-}
+
 #ballink{
     float: left;
 }

@@ -9,29 +9,63 @@
 </head>
 <body>
     <div class="container-fluid">
-        <header class="row">
-            <div class="col-12">
-                <h1 id="Kormi">Kormi</h1>
-            </div>
-        </header>
-        <main class="row m-auto col-lg-8 col-md-12 col-sm-12">
-            <img class="float-end col-md-2 col-lg-4 col-sm-4" src="img/keritesen.jpg" title="A kerítésen ülve néz minket." class="jobbkep">
-            <br>
+        <div class="container-fluid">
+            <header class="row fixed-top ">
+                <div class="col-12">
+                    <h1 id="#Kormi">Kormi</h1>
+
+                    <div class=" float-end m-auto">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menü
+                            </button>                        
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#Kormi">Kormi</a></li>
+                                <li><a class="dropdown-item" href="#tulaj">Tulajdonságok</a></li>
+                                <li><a class="dropdown-item" href="#etetes">Etetése</a></li>
+                                <li><a class="dropdown-item" href="#tiszt">Tisztántartása</a></li>
+                                <li><a class="dropdown-item" href="#nevelese">Nevelése</a></li>
+                                <li><a class="dropdown-item" href="#mtk">Megfelelő tartási körülményei</a></li>
+                                <li><a class="dropdown-item" href="#csapat">Impresszum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" float-end m-10">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nyelv
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#Macskaink">Magyar</a></li>
+                              <li><a class="dropdown-item" href="#Vadaszat">Angol</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header><br><br><br><br><br>
+
+        <main class=" m-auto col-lg-8 col-md-12 col-sm-12">
+            <img class="jobbkep  float-end d-none d-lg-block" src="img/keritesen.jpg" title="A kerítésen ülve néz minket." class="jobbkep">
+            
             <p>Nekem van egy fekete macskám, a neve Kormi.</p>
             <p>Befogadott cica, a barackfa alatt találtuk még 2018 őszén. Nehezen tudtuk magunkhoz szoktatni, mert valószínűleg az előző helyén nem bántak jól vele. A helyi csoportba tette fel valaki, hogy keresi a fekete Kormi macskáját, mi írtunk, hogy itt van, de nem jöttek érte, ezért mi befogadtuk. Biztosan bántották, mert kicsit sántít menés közben és eleinte nagyon félt, ha hirtelen mozdultunk.</p>
             <p>Két hónap alatt tudtuk beszoktatni a lakásba, de maradt kinti-benti cica. Mostanra 6,5 kilós, jól megtermett kandúr lett belőle, lassan 8 éves lesz.</p>
-            <br>
-            <h2>Tulajdonságai</h2>
+            
+            <h2 id="#tulaj">Tulajdonságai</h2>
             <p>A szőre nem teljesen egyforma hosszú, van benne sok hosszabb szál és már néhány fehér is, ahogy idősödik, de nyáron a bundája aranyló barna lesz, ami a napfényben csillog.</p>
-            <img class="col-md-2 m-auto col-lg-6" src="img/szőr.jpg" title="Aranyló barna nyáron a szőre" class="kozep">
-            <br>
+            <div class="row w-100">
+                <img class="col-md-4 m-auto col-lg-6" src="img/szőr.jpg" title="Aranyló barna nyáron a szőre" class="kozep">
+            </div>
+            
             <p>A szeme színe nagyon érdekes, az eredeti halványzöld, ha boldog, vagy vadászik, akkor narancssárga.</p>
-            <img class="col-md-5 m-auto col-lg-3" src="img/zoldszemu.jpg" title="Kormi zöld szemmel" class="balkep">
-            <img class="col-md-5 m-auto col-lg-3" src="img/narancsszemu.jpg" title="Kormi narancs szemmel" class="balkep">
+            <div class="row w-100">
+                <img class="col-lg-3 float-start col-md-4 float-sm-none m-sm-auto mb-20px d-none d-md-block" src="img/zoldszemu.jpg" title="Kormi zöld szemmel" class="balkep">
+                <img class="col-lg-3 m-auto col-md-4 float-sm-none m-sm-auto d-none d-md-block " src="img/narancsszemu.jpg" title="Kormi narancs szemmel" class="balkep">
+            </div>
             <p>Most már kézhez szokott, kedves állat lett belőle, legjobban hozzánk bújva, vagy az ölünkben szeret lenni.</p>
             <p></p>
             <br>
-            <h2>Etetése</h2>
+            <h2 id="#etetes">Etetése</h2>
             <p>Mivel sterilizált macska, ezért a nagyja száraztáp steril macskának való, de persze sok mindent megeszik. Sajnos madarat is hozott már, mivel későn vettük észre, hogy a szájában van, behozta a lakásba, nem győztük megfogni szegényt. Mivel már megszelidült, szeret kézből enni, egyesével a falatkákat. A kedvence a Felix és a nyers csirkemell, két lábra szokott állni érte.</p>
             <br>
             <table>
@@ -65,28 +99,30 @@
                 </tbody>
             </table>
             <br>
-            <h2>Tisztántartása</h2>
+            <h2 id="#tiszt">Tisztántartása</h2>
             <p>A macska tiszta állat, nem szoktuk fürdetni, szerintem nem is viselné el. Viszont érdekesség, hogy ha esik az eső és vizesen jön be, hagyja, hogy megtöröljük. Egyedül a fülét szoktuk takarítani, mert szeret kinn fetrengeni a homokban, így muszáj kiszedni a koszt belőle. Anyukámnak szokta engedni, hogy piszkálja, és ha véletlenül megsérül, ami elő szokott fordulni, anyunak azt is hagyja, hogy leápolja a sebét.</p>
             <br>
-            <h2>Nevelése</h2>
+            <h2 id="#nevelese">Nevelése</h2>
             <p>A macska nevelhetetlen, de kezelhető. Az eltelt 5 évben, amióta nálunk van, sokat szelidült, már ritkábban kergeti a szomszéd macskákat, ő is odajár a többiekhez. Teljesen jól szocializálódtak egymással.</p>
             <p>Minket csak a játék hevében karmol meg, de akkor rögtön bújik, szinte bocsánatot kér.</p>
             <br>
-            <h2>Megfelelő tartási körülményei</h2>
-            <img class="col-md-4" src="img/fekvo.jpg" title="Bent fekszik a saját rongyán" class="jobbkep">
-            <img class="col-md-4" src="img/dobozos.jpg" title="Kormi a dobozból néz." class="jobbkep">
+            <h2 id="#mtk">Megfelelő tartási körülményei</h2>
+            <div class="row w-100">
+                <img class="col-lg-3 float-md-end col-md-4  m-sm-auto d-none d-md-block" src="img/fekvo.jpg" title="Bent fekszik a saját rongyán" class="jobbkep">
+                <img class="col-lg-3 float-md-start  col-md-4 col-sm-12  m-auto d-none d-sm-block" src="img/dobozos.jpg" title="Kormi a dobozból néz." class="jobbkep">
+            </div>
         
             <p>A lakásban külön helye van, doboza és rongya is van, ahova feküdhet. Kint egy dobozba tud elbújni télen a hideg elől, ezt apukám készítette neki hungarocellből, ami le van vakolva és szénával van bélelve, így nem fázik. Szeret ott bent lenni, és megnéztük, ha kijön: tényleg meleg a bundája, biztos nem fázik.</p>
             <p>Nyáron pedig vannak kinn dobozok az ajtónál és a teraszon is, ahova be tud feküdni, mivel a macskáknak az kész Disneyland.</p>
             <p>Nyáron nagyon szeret a teraszon napozni.</p>
-            <img class="p-2em col-lg-12 col-md-6 m-auto" src="img/terasz.jpg" title="A teraszon pihen" class="kozep">
+            <img class="p-2em col-lg-12 col-md-8 m-auto d-none d-lg-block" src="img/terasz.jpg" title="A teraszon pihen" class="kozep">
             <br>
             <button type="button" class="btn btn-outline-danger m-auto col-md-6 col-sm-12"><a href="#Kormi">Vissza az oldal tetejére</a></button>
             <button type="button" class="btn btn-outline-danger m-auto col-md-6 col-sm-12"><a href="index.html">Vissza a főoldalra</a></button>
             <br>
         </main>
         <footer>
-            <div class="float-end col-md-2 col-sm-1">
+            <div class="float-end col-lg-2 col-sm-1">
                 <a href="https://github.com/Csipi456/IKT.haziallatok"><img src="img/GitHub.png" class="linkek"></a>
                 <a href="https://drive.google.com"><img src="img/Drive.jpg" class="linkek"></a>
             </div>

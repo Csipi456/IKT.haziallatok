@@ -4,12 +4,12 @@ body{
 header{
     display: block;
     margin: auto;
-    padding: 20px;
-    height: 100px;
+    height: 130px;
     background-color: rgb(105, 53, 43);
     color: white;
-    size: cover;
+    overflow: hidden;
 }
+
 
 main{
     display: block;
@@ -21,6 +21,7 @@ main{
 h1{
     text-align: center;
     font-variant: small-caps;
+    
     
 }
 h2{
@@ -40,7 +41,7 @@ p{
     
 }
 .jobbkep{
-    width: 60%;
+    width: 100px;
     float: right;
 }
 .kozep{
