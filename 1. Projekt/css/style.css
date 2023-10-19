@@ -7,7 +7,6 @@ header{
     height: 130px;
     background-color: rgb(105, 53, 43);
     color: white;
-    overflow: hidden;
 }
 
 
@@ -58,7 +57,7 @@ footer{
 table{
     width: 100%;
     margin: auto;
-    text-align: center;
+    text-align: center !important;
 }
 th{
     font-size: 120%;
