@@ -4,45 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Macskák - Csongrádi Tamás</title>
+    <title>Cats - Csongrádi Tamás</title>
 </head>
 <body>
     <div class="container-fluid">
-        <div class="container-fluid">
-            <header class="row fixed-top ">
-                <div class="col-12">
-                    <h1 id="#Kormi">Kormi</h1>
+        <header class="row fixed-top ">
+            <div class="col-12">
+                <h1 >Kormi</h1>
 
-                    <div class=" float-end m-auto">
-                        <div class="dropdown">
-                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                Menu
-                            </button>                        
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#Kormi">Kormi</a></li>
-                                <li><a class="dropdown-item" href="#tulaj">Traits</a></li>
-                                <li><a class="dropdown-item" href="#etetes">Feeding</a></li>
-                                <li><a class="dropdown-item" href="#tiszt">Bathing</a></li>
-                                <li><a class="dropdown-item" href="#nevelese">Training</a></li>
-                                <li><a class="dropdown-item" href="#mtk">Ideal conditions of keeping</a></li>
-                                <li><a class="dropdown-item" href="#csapat">Impress</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class=" float-end m-10">
-                        <div class="dropdown">
-                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                Nyelv
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="Csongrádi_Tamás.html">Hungarian</a></li>
-                              <li><a class="dropdown-item" href="#Kormi">English</a></li>
-                            </ul>
-                        </div>
+                <div class=" float-end m-auto">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </button>                        
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#macskak">Kormi</a></li>
+                            <li><a class="dropdown-item" href="#tulaj">Traits</a></li>
+                            <li><a class="dropdown-item" href="#etetes">Feeding</a></li>
+                            <li><a class="dropdown-item" href="#tiszt">Bathing</a></li>
+                            <li><a class="dropdown-item" href="#nevelese">Training</a></li>
+                            <li><a class="dropdown-item" href="#tatskor">Conditions of keeping</a></li>
+                            <li><a class="dropdown-item" href="#csapat">Impress</a></li>
+                        </ul>
                     </div>
                 </div>
-            </header><br><br><br><br><br>
+                <div class=" float-end">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Csongrádi_Tamás.html">Hungarian</a></li>
+                          <li><a class="dropdown-item" href="Csongrádi_Tamás_en.html">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header><br><br><br><br><br>
 
         <main class=" m-auto col-lg-8 col-md-12 col-sm-12">
             <img class="jobbkep  float-end d-none d-lg-block" src="img/keritesen.jpg" title="A kerítésen ülve néz minket." class="jobbkep">
@@ -117,32 +118,33 @@
             <p>In the summer, he likes to sunbathe on the terrace.</p>
             <img class="p-2em col-lg-12 col-md-8 m-auto d-none d-lg-block" src="img/terasz.jpg" title="A teraszon pihen" class="kozep">
             <br>
-            <button type="button" class="btn btn-outline-danger m-auto col-md-6 col-sm-12"><a href="#Kormi">Vissza az oldal tetejére</a></button>
-            <button type="button" class="btn btn-outline-danger m-auto col-md-6 col-sm-12"><a href="index.html">Vissza a főoldalra</a></button>
+            <button type="button" class="btn btn-outline-danger m-auto col-md-6 col-sm-12"><a  href="#Kormi">Back to the top of the page</a></button>
+            <button type="button" class="btn btn-outline-danger m-auto col-md-6 col-sm-12"><a   href="index.html">back to main page</a></button>
             <br>
         </main>
         <footer>
             <div class="float-end col-lg-2 col-sm-1">
                 <a href="https://github.com/Csipi456/IKT.haziallatok"><img src="img/GitHub.png" class="linkek"></a>
-                <a href="https://drive.google.com"><img src="img/Drive.jpg" class="linkek"></a>
+                <a href="https://drive.google.com/drive/folders/1rnQ4RniSHu9De533-v_wVV-w6ZBcajPY?usp=sharing
+                "><img src="img/Drive.jpg" class="linkek"></a>
             </div>
             <div class="col-md-10 col-sm-11">
-                <h3><b>Ezt az oldalt Csongrádi Tamás készítette.</b></h3>
-                <h3><b>A teljes projektet a CSCST csapata készítette.</b></h3>
+                <h3 id="csapat"><b>This webpage made by Csongrádi Tamás.</b></h3>
+                <h3><b>The whole project made by CSCST team.</b></h3>
             </div>
             <br>
                 <section class="row">
                     <article class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <p>Tagjai:</p>
+                        <p>Members:</p>
                         <ul>
-                            <p>Csipkés Bence - saját oldal és stíluslap készítése</p>
-                            <p>Csongrádi Tamás - saját oldal és főoldal készítése, címer, zászló megtervezése</p>
-                            <p>Tulipán Simon - saját oldal és logo készítése</p>
+                            <p>Csipkés Bence - made our webpage and stylesheet, bootstrap</p>
+                            <p>Csongrádi Tamás - made our main webpage, logo and his own webpage</p>
+                            <p>Tulipán Simon - made his own webpage, logo and translate</p>
                         </ul>
                         <br>
                     </article>
                     <article class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <p>Elérhetőségek:</p>
+                        <p>Our contact details:</p>
                         <ul>
                             <p>bencecsipkes67@gmail.com - +36 20 426 3152</p>
                             <p>cs.tomi0307@gmail.com - +36 70 350 1171</p>                                    
@@ -152,16 +154,16 @@
                     <article class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div id="ikepek">
                             <img src="img/logo_zazslo_cimer.png" alt="zászló és címer" id="ikepek">
-                            <p class="keszkep">A saját készítésű képek az évek során készültek.</p>
+                            <p class="keszkep">The pictures are home made.</p>
                         </div>    
                     </article>
                 </section>
                 <section >
                     <article class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <p>Szolgáltató: Kockáztató Kockák, BMSZC Neumann János Informatikai Technikum</p>
-                        <p>Telephely: BMSZC Neumann János Informatikai Technikum</p>
+                        <p>Service provider: CsCsT, BMSZC Neumann János Informatikai Technikum</p>
+                        <p>Place: BMSZC Neumann János Informatikai Technikum</p>
                         <ul>
-                            <p>1144 Budapest, Kerepesi út 124.</p>
+                            <p>1144 Budapest, Kerepesi road 124.</p>
                         </ul>
                 </article>
             </section>
