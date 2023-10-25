@@ -99,6 +99,7 @@ section{
 
 }
 #ikepek{
+    float: left;
     width: 100px;
 }
 .linkek{
