@@ -1,0 +1,160 @@
+body{
+    background-color: burlywood;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(105, 53, 43);
+    color: burlywood;
+    padding: 0;
+}
+.navbar-toggler{
+    background-color: burlywood;
+}
+li{
+    text-align: center;
+}
+main{
+    margin-top: 130px;
+    display: block; 
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 15px;
+    
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    
+}
+h2{
+    text-align: left;
+    font-style: italic;
+    color: rgb(138, 105, 63);
+}
+p{
+    text-align: justify;
+    text-indent: 0.5cm;
+}
+ul{
+    list-style-type:decimal;
+    text-align: justify;
+}
+img{
+    display: block;
+    margin: auto 20px;
+}
+#kiskep{
+    margin-top: 70px;
+}
+.balkep{
+    float: left;
+    max-width: 30%;
+    margin-bottom: 15px;
+}
+.jobbkep{
+    float: right;
+    width: 30%;
+    margin: 10px;    
+}
+.kozep{
+    display: block;
+    margin: auto;
+    max-width: 50%;
+}
+footer{
+    display: block;
+    margin: auto;
+    background-color: rgb(102, 45, 18);
+    color: white;
+    padding: 30px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+th{
+    background-color:  rgb(105, 53, 43);
+    border: 1px solid rgb(105, 53, 43);
+    padding: 5px;
+    color: burlywood;
+}
+td{
+    border: 1px solid brown;
+}
+div{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+section{
+    display: block;
+    margin: auto;
+    clear: both;
+    margin-bottom: 35px;
+}
+.keplink{
+    
+    margin-inline: auto ;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+
+}
+#ikepek{
+    
+    width: 400px;
+}
+.linkek{
+    height: 50px;
+    float: right;
+    margin: 5px;
+}
+a:link{
+    text-decoration: none;
+    padding: 5px;
+    color: burlywood;
+}
+a:visited{
+    color:burlywood;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: green;
+    font-style: oblique;
+}
+#fooldal{
+    float: right;
+    margin-right: 110px;
+}
+
+#ballink{
+    float: left;
+}
+#jpbblink{
+    float: right;
+}
+#similink{
+    float: left;
+    width: 8em;
+    height:8em;
+    margin: auto;
+    border-radius: 50%;
+}
+button{
+    margin: auto;
+}
+.alsolink:link{
+    text-decoration: none;
+    padding: 5px;
+    color: maroon;
+}
+.alsolink:hover{
+    color: yellow;
+}
+.also{
+    min-width: 50%; 
+}
