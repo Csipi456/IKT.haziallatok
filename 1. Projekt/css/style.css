@@ -1,14 +1,16 @@
 body{
     background-color: burlywood;
 }
-header{
-    display: block;
-    margin: auto;
-    height: 130px;
-    background-color: rgb(105, 53, 43);
-    color: white;
-}
 
+
+nav{
+    background-color: rgb(105, 53, 43);
+    color: burlywood;
+    
+}
+.navbar-toggler{
+    background-color: burlywood;
+}
 
 main{
     display: block;
@@ -16,6 +18,9 @@ main{
     background-color: rgb(255, 255, 255, 0.8);
     padding: 15px;
     
+}
+li{
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -90,7 +95,7 @@ section{
     border-radius: 50%;
 }
 #ikepek{
-    width: 100px;
+    width: 400px;
 }
 .linkek{
     height: 50px;

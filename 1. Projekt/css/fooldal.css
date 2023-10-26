@@ -1,15 +1,19 @@
 body{
     background-color: burlywood;
 }
-header{
-    display: block;
-    margin: auto;
-    height: 130px;
-    background-color: rgb(105, 53, 43);
-    color: white;
-    
-}
 
+nav{
+    text-align: center;
+    background-color: rgb(105, 53, 43);
+    color: burlywood;
+    padding: 0;
+}
+.navbar-toggler{
+    background-color: burlywood;
+}
+li{
+    text-align: center;
+}
 main{
     margin-top: 130px;
     display: block; 
@@ -99,8 +103,8 @@ section{
 
 }
 #ikepek{
-    float: left;
-    width: 100px;
+    
+    width: 400px;
 }
 .linkek{
     height: 50px;
@@ -150,4 +154,7 @@ button{
 }
 .alsolink:hover{
     color: yellow;
+}
+.also{
+    min-width: 50%; 
 }
