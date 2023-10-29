@@ -144,9 +144,7 @@ a:active{
     margin: auto;
     border-radius: 50%;
 }
-button{
-    margin: auto;
-}
+
 .alsolink:link{
     text-decoration: none;
     padding: 5px;
