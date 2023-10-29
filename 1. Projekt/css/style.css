@@ -34,7 +34,7 @@ h2{
 }
 p{
     text-align: justify;
-    text-indent: 0.5cm;
+    offset: 0.5cm;
 }
 
 #kiskep{
