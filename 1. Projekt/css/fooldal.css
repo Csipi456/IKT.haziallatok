@@ -8,6 +8,9 @@ nav{
     color: burlywood;
     padding: 0;
 }
+.nav-item{
+     text-align: center;
+}
 .navbar-toggler{
     background-color: burlywood;
 }
